@@ -1,0 +1,156 @@
+:root{
+    --vermelha: #E50914;
+    --preta: #030303;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body {
+    background: var(--preta);
+    font-family: 'Open Sans';
+    color: white;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    width: 15%;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background-image: linear-gradient(to bottom, transparent 0%, #030303 94%), url('/img/banner.Vincenzo3.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 90px;
+    font-family: 'Open Sans';
+}
+
+.filme-principal .titulo {
+   width: 45%;
+}
+
+.filme-principal .cast {
+    font-size: 15px;
+}
+
+.filme-principal .by {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.botao{
+    background-color: rgb(37, 37, 37);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 60%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/*carousel*/
+.carrosel-series{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.carrosel-series img {
+    border-radius: 4px;
+    max-height: 300px;
+    max-width: 225px;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.carrosel-filmes img {
+    border-radius: 4px;
+    max-height: 300px;
+    max-width: 225px;
+}
+
+.carrosel-dramas{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.carrosel-dramas img {
+    border-radius: 4px;
+    max-height: 300px;
+    max-width: 225px;
+}
+
+/* subtítulos */
+.subtitulos {
+    font: 'Open Sans';
+    font-size: 40px;
+    margin-left: 8px;
+}
+
+.subtitulo{
+    font: 'Open Sans';
+    font-size: 40px;
+    margin-left: 8px;
+}
